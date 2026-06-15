@@ -21,3 +21,13 @@ const phone = new Product('Phone', '15');
 const pc = new Product('PC', '30');
 
 console.table([phone, pc]);
+
+// console.count() method
+console.count();
+
+// console.group, console.groupEnd
+console.log('before');
+console.group();
+console.log('inside group');
+console.groupEnd();
+console.log('after');
